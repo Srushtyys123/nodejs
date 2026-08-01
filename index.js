@@ -1,6 +1,6 @@
-const maths= require('./maths.js');
-console.log("Hello from NodeJS",Sub(1,2));
-console.log(Add(4,7));
+const calc= require('./maths.js');
+console.log("Hello from NodeJS",calc.Sub(1,2));
+console.log(calc.Add(4,7));
 
 
 
